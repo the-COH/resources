@@ -62,7 +62,7 @@ While some of the public RPCs have archival data, there are no fully unpruned pu
 
 ##### Are there any data APIs for Canto?
 
-See [Covalent](https://www.covalenthq.com/).
+[Transpose](https://www.transpose.io/) has both REST and SQL APIs exposing Canto chain data. [Covalent](https://www.covalenthq.com/) also has a REST API for Canto chain data.
 
 ### Testnet
 
@@ -92,11 +92,15 @@ Only the entry contract.
 
 ##### Where do I find more information about CSR?
 
-In the [docs](https://docs.canto.io/evm-development/contract-secured-revenue).
+In the [CSR docs](https://docs.canto.io/evm-development/contract-secured-revenue).
 
 ##### What's the address for Turnstile, and where do I find the code?
 
 0xEcf044C5B4b867CFda001101c617eCd347095B44 and [here](https://github.com/Canto-Network/Canto/blob/csr/contracts/turnstile.sol).
+
+##### Can I `register` an EOA for CSR?
+
+**No.** The Turnstile smart contract allows an EOA to call the `register` method. However, the `x/csr` module operating on the Cosmos-side **will not save this registration**, and no revenue will accrue to the NFT, even if you `assign` valid smart contracts to it.
 
 ### Explorers
 
