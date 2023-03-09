@@ -100,10 +100,6 @@ In the [docs](https://docs.canto.io/evm-development/contract-secured-revenue).
 
 ### Explorers
 
-##### Is the explorer missing this block?
-
-It might be.
-
 ##### How do I verify my contracts on the explorer?
 
 Use [Sourcify](https://sourcify.dev/).
@@ -116,7 +112,7 @@ Verification of some contracts is not supported by the explorer. Contributors ar
 
 ##### Are there any oracles on Canto?
 
-Yes, [RedStone](https://redstone.finance/) and [Scry](https://canto.dapp.scry.finance/) (testnet only).
+Yes, [RedStone](https://redstone.finance/) and [Scry](https://canto.dapp.scry.finance/).
 
 ##### Is there a VRF oracle on Canto?
 
@@ -128,6 +124,10 @@ Not at this time.
 
 Yes, [Canto Safe](https://safe.neobase.one/).
 
+##### Is there any DAO tooling on Canto?
+
+Yes, [CantoDao](https://cantodao.com/).
+
 ### Grants and Promotion
 
 ##### Are there grants (or cover costs) for builders/validators?
@@ -137,3 +137,21 @@ The Canto Online Hackathon supports promising projects with generous $CANTO priz
 ##### Can Canto social channels promote my project?
 
 Canto social channels are run by various contributors. For your best chances at cross-promotion on these channels, make a professional and interesting Tweet about your project.
+
+### Repositories
+
+##### Where is the core Canto network repository?
+
+https://github.com/Canto-Network/Canto
+
+##### Where do I find the source code for IBC ERC20s and Turnstile?
+
+In the `contracts` folder of the core Canto repo: https://github.com/Canto-Network/Canto/tree/main/contracts
+
+##### Where do I find the Cosmos-side logic for the GovShuttle/CSR/other modules?
+
+In the `x` (modules) folder of the core Canto repo: https://github.com/Canto-Network/Canto/tree/main/x
+
+##### Where do I find the source code for Canto's Free Public Infrastructure (Canto Lending Market and DEX)?
+
+https://github.com/Canto-Network/clm
