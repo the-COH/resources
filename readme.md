@@ -1,6 +1,6 @@
 # Crowdsourced Resources for Canto Builders
 
-![](https://pbs.twimg.com/profile_banners/1583707619474042881/1675108605/1500x500)
+![](https://pbs.twimg.com/media/FrH8WpCaIAEUwNQ?format=jpg&name=large)
 
 Welcome to a crowdsourced directory of resources for Canto Online Hackathon builders and other community members. Not sure where to start? See the FAQ below for answers to builders' most frequent questions.
 
@@ -102,15 +102,33 @@ In the [CSR docs](https://docs.canto.io/evm-development/contract-secured-revenue
 
 **No.** The Turnstile smart contract allows an EOA to call the `register` method. However, the `x/csr` module operating on the Cosmos-side **will not save this registration**, and no revenue will accrue to the NFT, even if you `assign` valid smart contracts to it.
 
+##### How do I split CSR between multiple recipients?
+
+CSR does not have native support for multiple fee recipients; however, Turnstile NFTs are composable and can be deposited to protocols like [Canto Splits](https://splits.neobase.one/) for trustless revenue sharing.
+
 ### Explorers
+
+##### Does Canto have a blockchain explorer?
+
+Canto has at least three contributor-operated block explorers: [tuber.build](https://tuber.build/), [Cantoscan](https://cantoscan.xyz/), and [GaCanto](https://www.gacanto.com/).
 
 ##### How do I verify my contracts on the explorer?
 
-Use [Sourcify](https://sourcify.dev/).
+For tuber.build, use [Sourcify](https://sourcify.dev/). You can also verify through Forge using Sourcify:
 
-##### Why can't I verify my contracts on the explorer?
+`forge verify-contract <contractAddress> src/<fileName>.sol:<contractName> --chain-id 7700 --verifier sourcify`
+
+...or Blockscout:
+
+`forge verify-contract <contractAddress> src/<fileName>.sol:<contractName> --chain-id 7700 --verifier-url https://evm.explorer.canto.io/api --verifier blockscout`
+
+##### Why can't I verify my contract(s)?
 
 Verification of some contracts is not supported by the explorer. Contributors are aware of this and working on solutions.
+
+##### Is there a testnet explorer?
+
+Yes, [testnet.tuber.build](https://testnet.tuber.build).
 
 ### Oracles
 
@@ -120,17 +138,27 @@ Yes, [RedStone](https://redstone.finance/) and [Scry](https://canto.dapp.scry.fi
 
 ##### Is there a VRF oracle on Canto?
 
-Not at this time.
+Yes, Scry offers a [VRF oracle](https://docs.scry.finance/docs/morpheus/vrf-hash-ranch).
+
+### NFTs
+
+##### How can I prove ownership of an NFT on mainnet on Canto?
+
+See [NFT Global Entry](https://github.com/the-COH/chapter_1_season_4/tree/main/nft-global-entry).
+
+##### Is [Delegate.Cash](https://delegate.cash/) deployed to Canto?
+
+Yes.
 
 ### DAO Tooling
 
 ##### Is there a multisig (a'la Safe) on Canto?
 
-Yes, [Canto Safe](https://safe.neobase.one/).
+Yes, [Canto Safe](https://safe.neobase.one/) on the Canto EVM; [Pyxis Safe](https://safe.serenity.aura.network/welcome) on Canto bridge/native layer.
 
 ##### Is there any DAO tooling on Canto?
 
-Yes, [CantoDao](https://cantodao.com/).
+Yes, [CantoDao](https://cantodao.com/) and [Canto Collectives](https://canto.kali.gg/) by Kali.
 
 ### Grants and Promotion
 
