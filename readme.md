@@ -50,11 +50,15 @@ The Canto network uses a modified EIP-1559 gas model *without* priority fees. Th
 
 ##### Is there a websockets (WSS) RPC I can use?
 
-Yes, `wss://canto.gravitychain.io:8546`.
+Yes, `wss://canto.gravitychain.io:8546` and `wss://canto.dexvaults.com/ws`.
+
+##### Is there anywhere I can get a dedicated Canto node?
+
+Yes, [Ansybl](https://www.ansybl.io/) offers dedicated, hosted Canto nodes.
 
 ##### The throughput/reliability of the public RPCs isn't good enough, what should I do?
 
-If your application requires very high throughput/reliability, consider [setting up your own node](https://docs.canto.io/canto-node/validators).
+If your application requires very high throughput/reliability, consider renting a dedicated Canto node (see aboev) or [setting up your own node](https://docs.canto.io/canto-node/validators).
 
 ##### Is there a public archive RPC?
 
