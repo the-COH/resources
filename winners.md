@@ -36,6 +36,7 @@ Get inspired by and build on the work of past Canto Online Hackathon Winners.
     - Cypher Skulls
   
 </details>
+
 ## S4
 
 - **Overall Winner:** Delegate Cash
