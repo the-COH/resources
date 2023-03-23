@@ -66,7 +66,9 @@ While some of the public RPCs have archival data, there are no fully unpruned pu
 
 ##### Are there any data APIs for Canto?
 
-[Transpose](https://www.transpose.io/) has both REST and SQL APIs exposing Canto chain data. [Covalent](https://www.covalenthq.com/) also has a REST API for Canto chain data.
+Data providers [Transpose](https://www.transpose.io/) and [Covalent](https://www.covalenthq.com/) have REST and SQL APIs exposing Canto chain data.
+
+Additionally, the Blockscout explorers for mainnet ([tuber.build](https://tuber.build/)) and testnet ([testnet.tuber.build](https://testnet.tuber.build/)) support the default Blockscout [API endpoints](https://tuber.build/api-docs).
 
 ### Testnet
 
