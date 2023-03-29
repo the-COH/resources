@@ -90,6 +90,17 @@ There was previously a testnet with chain ID 740. Due to incompatibility with CS
 
 See the [DEX and Lending Market](https://docs.canto.io/evm-development/dex-and-lending-market) section of the docs for an overview of their architectures and links to source contracts.
 
+### Other Contracts
+
+##### Is there a Multicall deployment on Canto?
+
+Yes, you can use Multicall1 and 2 on both mainnet and testnet:
+
+|            | Mainnet                                    | Testnet                                    |
+|------------|--------------------------------------------|--------------------------------------------|
+| Multicall1 | 0x210b88d5Ad4BEbc8FAC4383cC7F84Cd4F03d18c6 | 0xe536cF7B00069894da25faC787d7aD9D211a2C1A |
+| Multicall2 | 0x637490E68AA50Ea810688a52D7464E10c25A77c1 | 0x0e356B86FA2aE1bEB93174C18AD373207a40F2A3 |
+
 ### Contract Secured Revenue (CSR)
 
 ##### If multiple contracts are used in a single call, which of them gets the CSR revenue?
@@ -116,7 +127,7 @@ CSR does not have native support for multiple fee recipients; however, Turnstile
 
 ##### Does Canto have a blockchain explorer?
 
-Canto has at least three contributor-operated block explorers: [tuber.build](https://tuber.build/), [Cantoscan](https://cantoscan.xyz/), and [GaCanto](https://www.gacanto.com/).
+Canto has at least four contributor-operated block explorers: [tuber.build](https://tuber.build/), [mintscan.io/canto](https://www.mintscan.io/canto) [Cantoscan](https://cantoscan.xyz/), and [GaCanto](https://www.gacanto.com/).
 
 ##### How do I verify my contracts on the explorer?
 
