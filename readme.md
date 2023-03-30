@@ -201,6 +201,6 @@ In the `contracts` folder of the core Canto repo: https://github.com/Canto-Netwo
 
 In the `x` (modules) folder of the core Canto repo: https://github.com/Canto-Network/Canto/tree/main/x
 
-##### Where do I find the source code for Canto's Free Public Infrastructure (Canto Lending Market and DEX)?
+##### Where do I find the source code/ABIs for Canto's Free Public Infrastructure (Canto Lending Market, DEX, and $NOTe)?
 
-https://github.com/Canto-Network/clm
+https://github.com/Canto-Network/clm/tree/main/src
