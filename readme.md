@@ -78,7 +78,7 @@ Use the public RPC `canto-testnet.plexnode.wtf` and chain ID 7701 in your develo
 
 ##### How do I get testnet tokens?
 
-Join the [Canto Discord](https://discord.gg/canto) and locate the #canto-testnet-faucet channel. In this channel, use the `/driptestnet {address}` command.
+A testnet faucet at https://www.cantofaucet.com/ disperses 50 tokens per address per 24 hours. Alternatively, use the `/driptestnet {address}` command in the #canto-testnet-faucet channel of the [Canto Discord](https://discord.gg/canto).
 
 ##### What about the old testnet?
 
