@@ -151,7 +151,12 @@ Yes, [testnet.tuber.build](https://testnet.tuber.build).
 
 ##### Are there any oracles on Canto?
 
-Yes, [RedStone](https://redstone.finance/) and [Scry](https://canto.dapp.scry.finance/). Note that the [Canto DEX router](https://github.com/Canto-Network/clm/blob/main/src/Swap/BaseV1-periphery.sol) deployed at [0xa252eEE9BDe830Ca4793F054B506587027825a8e](https://evm.explorer.canto.io/address/0xa252eEE9BDe830Ca4793F054B506587027825a8e) also has price oracle functionality.
+Yes:
+* [RedStone](https://redstone.finance/)
+* [Scry](https://canto.dapp.scry.finance/)
+* [Pyth](https://docs.pyth.network/pythnet-price-feeds/evm)
+
+Note that the [Canto DEX router](https://github.com/Canto-Network/clm/blob/main/src/Swap/BaseV1-periphery.sol) deployed at [0xa252eEE9BDe830Ca4793F054B506587027825a8e](https://evm.explorer.canto.io/address/0xa252eEE9BDe830Ca4793F054B506587027825a8e) also has price oracle functionality.
 
 ##### Is there a VRF oracle on Canto?
 
