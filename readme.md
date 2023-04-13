@@ -54,15 +54,15 @@ Yes, `wss://canto.gravitychain.io:8546` and `wss://canto.dexvaults.com/ws`.
 
 ##### Is there anywhere I can get a dedicated Canto node?
 
-Yes, [Ansybl](https://www.ansybl.io/) offers dedicated, hosted Canto nodes.
+Yes, [Ansybl](https://www.ansybl.io/) hosts dedicated Canto nodes, including both full and archive nodes, for a monthly fee.
 
 ##### The throughput/reliability of the public RPCs isn't good enough, what should I do?
 
-If your application requires very high throughput/reliability, consider renting a dedicated Canto node (see aboev) or [setting up your own node](https://docs.canto.io/canto-node/validators).
+If your application requires very high throughput/reliability, consider renting a dedicated Canto node (see above) or [setting up your own node](https://docs.canto.io/canto-node/validators).
 
 ##### Is there a public archive RPC?
 
-While some of the public RPCs have archival data, there are no fully unpruned public archive RPC nodes. If you need one, consider [setting up your own archive node](https://docs.canto.io/canto-node/archive-node).
+`https://rpc.cantoarchive.com` is a public archive RPC node, with rate limiting allowing up to 50 requests per 10 seconds. As above, for more throughput, consider renting a dedicated node or [setting up your own *archive* node](https://docs.canto.io/canto-node/archive-node).
 
 ##### Are there any data APIs for Canto?
 
