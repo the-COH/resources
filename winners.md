@@ -2,11 +2,33 @@
 
 Get inspired by and build on the work of past Canto Online Hackathon Winners.
 
+- [S6](#S6)
 - [S5](#S5)
 - [S4](#S4)
 - [S3](#S3)
 - [S2](#S2)
 - [S1](#S1)
+
+## S6
+
+- **Overall Winner:** Untitled Canto Game
+- **DeFi & Infrastructure:** Cadence Protocol
+- **Ecosystem Growth:** Canto Herald
+- **New Things:** Web3Hook
+- **NFTs:** MintWorldGG
+
+<details>
+  <summary>Notable Builds</summary>
+
+    - GaCanto
+    - DeNotify
+    - DexFinance
+    - txnv_io
+    - NFTs2ME
+    - Sloppyswap
+    - Canto Starter Kit
+  
+</details>
 
 ## S5
 
