@@ -76,9 +76,15 @@ Additionally, the Blockscout explorers for mainnet ([tuber.build](https://tuber.
 
 Use the public RPC `canto-testnet.plexnode.wtf` and chain ID 7701 in your development suite or wallet of choice.
 
-##### How do I get testnet tokens?
+##### How do I get testnet $CANTO?
 
-A testnet faucet at https://www.cantofaucet.com/ disperses 50 tokens per address per 24 hours. Alternatively, use the `/driptestnet {address}` command in the #canto-testnet-faucet channel of the [Canto Discord](https://discord.gg/canto).
+Use the web-based faucet at https://www.cantofaucet.com/. Alternatively, use the Discord faucet by entering the `/driptestnet {address}` command in the #canto-testnet-faucet channel of the [Canto Discord](https://discord.gg/canto).
+
+ Both faucets disperse 50 $CANTO per address per 24 hours.
+
+##### How do I get testnet $NOTE?
+
+The Discord faucet mentioned above also disperses 15 $NOTE each time it is used.
 
 ##### What about the old testnet?
 
