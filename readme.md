@@ -1,6 +1,6 @@
 # Crowdsourced Resources for Canto Builders
 
-![](banner.jpeg)
+![](banner.jpg)
 
 Welcome to a crowdsourced directory of resources for Canto Online Hackathon builders and other community members. Not sure where to start? See the FAQ below for answers to builders' most frequent questions.
 
