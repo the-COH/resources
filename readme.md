@@ -84,11 +84,15 @@ Use the web-based faucet at https://www.cantofaucet.com/. Alternatively, use the
 
 ##### How do I get testnet $NOTE?
 
-The Discord faucet mentioned above also disperses 15 $NOTE each time it is used.
+The Discord faucet mentioned above also disperses 15 $NOTE each time it is used. If that's not enough, the Canto DEX testnet deployment has $CANTO <> $NOTE liquidity and can be interacted with programatically or through [LeetSwap](https://app.leetswap.finance/#/swap) (after switching to Canto testnet in the connected wallet).
+
+##### Can I get other ERC20 tokens (USDC, USDT) on Canto testnet?
+
+The Canto DEX testnet deployment also has liquidity for the $NOTE <> $USDC and $NOTE <> $USDT pairs. As above, it can be interacted with programatically or through [LeetSwap](https://app.leetswap.finance/#/swap).
 
 ##### What about the old testnet?
 
-There was previously a testnet with chain ID 740. Due to incompatibility with CSR and validator sync issues, this testnet was deprecated and a new testnet was released with the details above.
+There was previously a testnet with chain ID 740. Due to incompatibility with CSR and validator sync issues, this testnet was deprecated and a new testnet (chain ID 7701).
 
 ### Free Public Infrastructure
 
