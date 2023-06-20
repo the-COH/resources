@@ -202,6 +202,16 @@ The Canto Online Hackathon supports promising projects with generous $CANTO priz
 
 Canto social channels are run by various contributors. For your best chances at cross-promotion on these channels, make a professional and interesting Tweet about your project.
 
+### Bridges and Interoperability
+
+Canto is supported by the following bridges and interoperability protocols:
+
+- Gravity Bridge
+- LayerZero (Canto endpoint: 0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4)
+- Synapse Bridge
+- Multichain
+- Celer cBridge
+
 ### Repositories
 
 ##### Where is the core Canto network repository?
